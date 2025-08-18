@@ -1,1 +1,1 @@
-# mental_wellness_journal
+# Student Wellness Management System (SWMS)
