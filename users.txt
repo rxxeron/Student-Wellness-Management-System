@@ -1,4 +1,0 @@
-2025-2-50-009|Md Rakibul Hasan|ICE|ICE103, MAT101, ENG7101|rhrakib12|Student
-safin.kamal@ewubd.edu|Safin Kamal|ICE103, CSE103,| CSE102|safinkamal1234|Faculty
-counselor@ewubd.edu|Sharmin Nahar|CCC|Counciling|CCC12345|Counselor
-authority@ewubd.edu|Syed Mahbub|Authority|auth|authority1234|Authority
