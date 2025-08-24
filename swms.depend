@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1756054534 source:c:\users\hp\downloads\student-wellness-management-system-main\student-wellness-management-system-main\swms\consultant.c
+	"common.h"
+
+1756054534 c:\users\hp\downloads\student-wellness-management-system-main\student-wellness-management-system-main\swms\common.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1756054534 source:c:\users\hp\downloads\student-wellness-management-system-main\student-wellness-management-system-main\swms\faculty.c
+	"common.h"
+
+1756054534 source:c:\users\hp\downloads\student-wellness-management-system-main\student-wellness-management-system-main\swms\main.c
+	"common.h"
+
+1756054534 source:c:\users\hp\downloads\student-wellness-management-system-main\student-wellness-management-system-main\swms\student.c
+	"common.h"
+
+1756054534 source:c:\users\hp\downloads\student-wellness-management-system-main\student-wellness-management-system-main\swms\admin.c
+	"common.h"
+
+1756056951 source:c:\users\hp\downloads\swms\admin.c
+	"common.h"
+
+1756059048 c:\users\hp\downloads\swms\common.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1756057571 source:c:\users\hp\downloads\swms\consultant.c
+	"common.h"
+
+1756058017 source:c:\users\hp\downloads\swms\faculty.c
+	"common.h"
+
+1756054534 source:c:\users\hp\downloads\swms\main.c
+	"common.h"
+
+1756059362 source:c:\users\hp\downloads\swms\student.c
+	"common.h"
+
