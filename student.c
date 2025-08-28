@@ -23,8 +23,8 @@ void regstd() {                                            // Student Registrati
     printf("Student ID (xxxx-x-xx-xxx): ");
     scanf("%29s", s.std_id);
 
-    // Check if ID already exists
-    {
+    
+    {                                       // Check if ID already exists
         FILE *check = fopen(stdfile, "r");
         if(check) {
             char id[30], pass[30], course[50], sec[10];
@@ -87,13 +87,13 @@ int logstd(char std_id[]) {                               // Student Login
     if(!success) printf("Login failed! Check ID and password.\n");
     return success;
 }
-int spfm() {                                             // Post menu function
+int spfm() {                                             // Student post menu function
     int choice;
     while(1) {
         printf("\n1. Back to Student Menu\n2. Logout\nChoice: ");
         if(scanf("%d",&choice)!=1){ while(getchar()!='\n'); printf("Invalid input!\n"); continue; }
-        if(choice==1) return 1;  // Back to menu
-        if(choice==2) return 0;  // Logout
+        if(choice==1) return 1;  
+        if(choice==2) return 0;  
         printf("Invalid choice!\n");
     }
 }
@@ -181,7 +181,7 @@ int view_report(char std_id[]) {                       // View student report
 
     return spfm();
 }
-void sba(char student_id[]) {                         // Student books appoint
+void sba(char student_id[]) {                         // Student books appointment
     clrscrn();
     char consultant[max_un], date[20], time[10];
 

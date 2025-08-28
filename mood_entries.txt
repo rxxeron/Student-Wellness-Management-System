@@ -1,6 +1,5 @@
 2025-2-50-009 2025-08-17 1 I am failing to build my project
 2025-2-50-009 2025-08-18 5 I am very happy
 2025-2-50-009 2025-08-18 2 I am dead. My Project is gone.
-2025-2-50-009 2025-08-18 5 I lost my job.
 2025-2-50-009 2025-08-18 5 0
 2025-2-50-009 2025-08-19 5 jinga lala

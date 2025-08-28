@@ -1,15 +1,16 @@
 #include "common.h"
 
-int cpfm() {                                             // Post menu function
+int cpfm() {                                             // Consultant post menu function
     int choice;
     while(1) {
         printf("\n1. Back to Consultant Menu\n2. Logout\nChoice: ");
         if(scanf("%d",&choice)!=1){ while(getchar()!='\n'); printf("Invalid input!\n"); continue; }
-        if(choice==1)  return 1; clrscrn(); // Back to menu
-        if(choice==2) return 0; clrscrn(); // Logout
+        if(choice==1)  return 1; clrscrn(); 
+        if(choice==2) return 0; clrscrn(); 
         printf("Invalid choice!\n");
     }
 }
+
 // Consultant Function
 int logconst(char id[], Consultant *c){                     // Consultant Login
     clrscrn();
@@ -161,7 +162,7 @@ void constmenu(Consultant c){                           // Consultant's Menu
             case 1: cont = consvrecomm(c); break;
             case 2: cont = consvsche(c); break;
             case 3: cont = consvreq(c); break;
-            case 4: cont = 0; break;  // logout
+            case 4: cont = 0; break;  
             default: printf("Invalid choice!\n"); break;
         }
     }

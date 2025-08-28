@@ -2,6 +2,7 @@
 
 
 // Admin Function
+
 int login_admin() {             // Admin login
     clrscrn();
     const char admin_user[] = "admin_swms";
@@ -36,7 +37,7 @@ void adminaddfac() {                    // Admin add faculty
     printf("\n\t\t\t\t--------------- Add New Faculty ---------------\n");
     printf("Username: "); scanf("%29s", username);
     printf("Password: "); scanf("%29s", password);
-    getchar(); // clear newline
+    getchar(); 
     printf("Course: "); fgets(course, sizeof(course), stdin);
     course[strcspn(course, "\n")] = '\0';
     printf("Section: "); fgets(section, sizeof(section), stdin);

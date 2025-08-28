@@ -4,7 +4,7 @@
 #include <string.h>
 #include <time.h>
 
-// Define place
+// Define list
 #define max_un 30
 #define max_pass 30
 #define max_course 20
@@ -18,7 +18,7 @@
 #define recommendfile "recommendations.txt"
 #define apptfile "appointments.txt"
 
-// Structure
+// Structure list
 typedef struct {
     char std_id[max_un];
     char pass[max_pass];
@@ -47,7 +47,7 @@ typedef struct {
     char faculty_username[max_un];
     int mood_lvl;
     char type[20];   // consult/break
-    char status[20]; // pending/accepted/rejected/scheduled
+    char status[20]; // pending/accepted/rejected/scheduled 
 } Recommendation;
 typedef struct {
     long id;
@@ -64,11 +64,12 @@ typedef struct {
 #define clrcmd "clear"
 #endif
 
-// Common utility functions
+// Common functions for all
 void clrscrn();
 void paucon();
 
-// Function prototypes
+// Function structure
+
 // Student functions
 void regstd();
 int logstd(char std_id[]);

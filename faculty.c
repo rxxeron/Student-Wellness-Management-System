@@ -1,7 +1,7 @@
 #include "common.h"
 
 
-int fpfm() {                                             // Post menu function
+int fpfm() {                                             // Faculty post menu function
     int choice;
     while(1) {
         printf("\n1. Back to Faculty Menu\n2. Logout\nChoice: ");
@@ -11,6 +11,7 @@ int fpfm() {                                             // Post menu function
         printf("Invalid choice!\n");
     }
 }
+
 // Faculty functions
 int logfac(char id[], Teacher *t) {                          // Faculty login
     clrscrn();
@@ -243,17 +244,17 @@ void teachmenu(Teacher t){                              // Teacher Menu
             continue;
         }
 
-        int res = 1; // default = back to menu
+        int res = 1; 
         switch(choice){
             case 1: res = fvam(t); break;
             case 2: res = facvulstd(t); break;
             case 3: res = facrecconst(t); break;
             case 4: res = facvrecommsta(t); break;
-            case 5: res = 0; clrscrn(); break;  // logout chosen from menu
+            case 5: res = 0; clrscrn(); break;  
             default: printf("Invalid choice!\n"); break;
         }
 
-        if(res == 0) break; // logout chosen either from a function or menu
+        if(res == 0) break; 
     }
 
 }
